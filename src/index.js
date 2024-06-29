@@ -1,17 +1,17 @@
 import "./style.css";
-import audiofile from "./assets/bad.mp3";
-import audiofile2 from "./assets/good.mp3";
+import oldAudio1 from "./assets/bad.mp3";
+import myAudio1 from "./assets/good.mp3";
 let sample;
-
+// const submitButton = document.querySelector("#submit");
 const sampleA = document.querySelector("#firstA1");
 const sampleB = document.querySelector("#firstB1");
 
 sampleA.addEventListener("click", (event) => {
-  playSound(audiofile, document.querySelector("#" + event.target.id));
+  playSound(myAudio1, document.querySelector("#" + event.target.id));
 });
 
 sampleB.addEventListener("click", (event) => {
-  playSound(audiofile2, document.querySelector("#" + event.target.id));
+  playSound(oldAudio1, document.querySelector("#" + event.target.id));
 });
 
 function removePlayingClass() {
@@ -32,3 +32,16 @@ function playSound(audio, thisButton) {
   sample.volume = 0.2;
   sample.play();
 }
+
+// submitButton.addEventListener("click", (event) => {
+//   event.preventDefault();
+//   let result = { myAudio: null, oldAudio: null };
+//   const radioButtons = [...document.querySelectorAll("input")];
+//   radioButtons.forEach((element) => {
+//     if (element.value === "on") {
+//         console.log('yes')
+//       result[element.name] = element.textContent;
+//     }
+//   });
+//   console.log(result)
+// });
