@@ -5,10 +5,9 @@ const app = express();
 const baseURLdev = "http://localhost:8080/";
 const password = "0neP1ece";
 const dbURI = `mongodb+srv://SoTilted:${password}@cluster0.ua68r8q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-const dbURI2 = 'mongodb://mongo:xbZqPXuZRQtUvpqMFzNOjJRJlkvbbwPR@viaduct.proxy.rlwy.net:44351' 
 //  Connect to db
 mongoose
-  .connect(dbURI2)
+  .connect(dbURI)
   .then((result) => {
     console.log("Connected to db");
     app.listen(3000);
