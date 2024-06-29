@@ -2,7 +2,7 @@
     "name": "lydaki-project",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "gitUpdate": "git subtree push --prefix dist origin gh-pages",
         "test": "jest",
@@ -29,7 +29,6 @@
         "webpack-merge": "^5.10.0"
     },
     "dependencies": {
-        "email-validator": "^2.0.4",
         "mongodb": "^6.8.0",
         "mongoose": "^8.4.4"
     }
