@@ -68,6 +68,7 @@ form,#test-content {
 
 #submit {
   -webkit-appearance: none;
+  -moz-appearance: none;
   padding: 10px;
   font-weight: 500;
   margin-bottom: 100px;
