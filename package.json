@@ -6,6 +6,7 @@
         "gitUpdate": "git subtree push --prefix dist origin gh-pages",
         "test": "jest",
         "watch": "webpack --watch",
+        "dev":"webpack serve --open --config webpack.dev.js",
         "start": "node app.js",
         "build": "webpack --config webpack.prod.js"
     },

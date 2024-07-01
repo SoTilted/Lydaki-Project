@@ -16,7 +16,7 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.(mp3|wav)$/i,
+        test: /\.(mp3|wav|ogg)$/i,
         type:"asset/resource",
       },
       {

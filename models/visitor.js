@@ -6,6 +6,10 @@ const visitorSchema = new Schema(
     test1: {
       type: Object,
       required: true,
+    },
+    test2: {
+      type: Object,
+      required: true,
     }
   },
   { timestamps: true }

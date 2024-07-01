@@ -10,7 +10,7 @@ mongoose
   .connect(dbURI)
   .then((result) => {
     console.log("Connected to db");
-    app.listen(3000);
+    app.listen(8080);
   })
   .catch((err) => console.log(err));
 
@@ -23,8 +23,32 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const visitor = new Visitor({
     test1: {
-      myAudio: req.body.myAudio,
-      oldAudio: req.body.oldAudio,
+      myAudio1: req.body.myAudio1,
+      oldAudio1: req.body.oldAudio1,
+      myAudio2: req.body.myAudio2,
+      oldAudio2: req.body.oldAudio2,
+      myAudio3: req.body.myAudio3,
+      oldAudio3: req.body.oldAudio3,
+      myAudio4: req.body.myAudio4,
+      oldAudio4: req.body.oldAudio4,
+      myAudio5: req.body.myAudio5,
+      oldAudio5: req.body.oldAudio5,
+      myAudio6: req.body.myAudio6,
+      oldAudio6: req.body.oldAudio6,
+    },
+    test2: {
+      myAudio1: req.body.myAudio7,
+      oldAudio1: req.body.oldAudio7,
+      myAudio2: req.body.myAudio8,
+      oldAudio2: req.body.oldAudio8,
+      myAudio3: req.body.myAudio9,
+      oldAudio3: req.body.oldAudio39,
+      myAudio4  : req.body.myAudio10,
+      oldAudio4: req.body.oldAudio10,
+      myAudio5: req.body.myAudio11,
+      oldAudio5: req.body.oldAudio11,
+      myAudio6: req.body.myAudio12,
+      oldAudio6: req.body.oldAudio12,
     },
   });
   visitor.save();
