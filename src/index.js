@@ -1,40 +1,34 @@
 import "./style.css";
-import myAudio1 from "./assets/working_audio-files/1_mine_1.wav";
-import oldAudio1 from "./assets/working_audio-files/1_old_1.wav";
-import myAudio2 from "./assets/working_audio-files/2_mine_1.wav";
-import oldAudio2 from "./assets/working_audio-files/2_old_1.wav";
-import myAudio3 from "./assets/working_audio-files/3_mine_1.wav";
-import oldAudio3 from "./assets/working_audio-files/3_old_1.wav";
-import myAudio4 from "./assets/working_audio-files/4_mine_1.wav";
-import oldAudio4 from "./assets/working_audio-files/4_old_1.wav";
-import myAudio5 from "./assets/working_audio-files/5_mine_1.wav";
-import oldAudio5 from "./assets/working_audio-files/5_old_1.wav";
-import myAudio6 from "./assets/working_audio-files/6_mine_1.wav";
-import oldAudio6 from "./assets/working_audio-files/6_old_1.wav";
-import myAudio7 from "./assets/working_audio-files/1_mine_2.wav";
-import oldAudio7 from "./assets/working_audio-files/1_old_2.wav";
-import myAudio8 from "./assets/working_audio-files/2_mine_2.wav";
-import oldAudio8 from "./assets/working_audio-files/2_old_2.wav";
-import myAudio9 from "./assets/working_audio-files/3_mine_2.wav";
-import oldAudio9 from "./assets/working_audio-files/3_old_2.wav";
-import myAudio10 from "./assets/working_audio-files/4_mine_2.wav";
-import oldAudio10 from "./assets/working_audio-files/4_old_2.wav";
-import myAudio11 from "./assets/working_audio-files/5_mine_2.wav";
-import oldAudio11 from "./assets/working_audio-files/5_old_2.wav";
-import myAudio12 from "./assets/working_audio-files/6_mine_2.wav";
-import oldAudio12 from "./assets/working_audio-files/6_old_2.wav";
-import refAudio1 from "./assets/working_audio-files/1_ref_1.wav";
-import refAudio2 from "./assets/working_audio-files/2_ref_1.wav";
-import refAudio3 from "./assets/working_audio-files/3_ref_1.wav";
-import refAudio4 from "./assets/working_audio-files/4_ref_1.wav";
-import refAudio5 from "./assets/working_audio-files/5_ref_1.wav";
-import refAudio6 from "./assets/working_audio-files/6_ref_1.wav";
-import refAudio7 from "./assets/working_audio-files/1_ref_2.wav";
-import refAudio8 from "./assets/working_audio-files/2_ref_2.wav";
-import refAudio9 from "./assets/working_audio-files/3_ref_2.wav";
-import refAudio10 from "./assets/working_audio-files/4_ref_2.wav";
-import refAudio11 from "./assets/working_audio-files/5_ref_2.wav";
-import refAudio12 from "./assets/working_audio-files/6_ref_2.wav";
+import myAudio1 from "./assets/working_audio_files/1_mine_1.wav";
+import oldAudio1 from "./assets/working_audio_files/1_old_1.wav";
+import myAudio2 from "./assets/working_audio_files/2_mine_1.wav";
+import oldAudio2 from "./assets/working_audio_files/2_old_1.wav";
+import myAudio3 from "./assets/working_audio_files/3_mine_1.wav";
+import oldAudio3 from "./assets/working_audio_files/3_old_1.wav";
+import myAudio4 from "./assets/working_audio_files/4_mine_1.wav";
+import oldAudio4 from "./assets/working_audio_files/4_old_1.wav";
+import myAudio5 from "./assets/working_audio_files/5_mine_1.wav";
+import oldAudio5 from "./assets/working_audio_files/5_old_1.wav";
+import myAudio7 from "./assets/working_audio_files/1_mine_2.wav";
+import oldAudio7 from "./assets/working_audio_files/1_old_2.wav";
+import myAudio8 from "./assets/working_audio_files/2_mine_2.wav";
+import oldAudio8 from "./assets/working_audio_files/2_old_2.wav";
+import myAudio9 from "./assets/working_audio_files/3_mine_2.wav";
+import oldAudio9 from "./assets/working_audio_files/3_old_2.wav";
+import myAudio10 from "./assets/working_audio_files/4_mine_2.wav";
+import oldAudio10 from "./assets/working_audio_files/4_old_2.wav";
+import myAudio11 from "./assets/working_audio_files/5_mine_2.wav";
+import oldAudio11 from "./assets/working_audio_files/5_old_2.wav";
+import refAudio1 from "./assets/working_audio_files/1_ref_1.wav";
+import refAudio2 from "./assets/working_audio_files/2_ref_1.wav";
+import refAudio3 from "./assets/working_audio_files/3_ref_1.wav";
+import refAudio4 from "./assets/working_audio_files/4_ref_1.wav";
+import refAudio5 from "./assets/working_audio_files/5_ref_1.wav";
+import refAudio7 from "./assets/working_audio_files/1_ref_2.wav";
+import refAudio8 from "./assets/working_audio_files/2_ref_2.wav";
+import refAudio9 from "./assets/working_audio_files/3_ref_2.wav";
+import refAudio10 from "./assets/working_audio_files/4_ref_2.wav";
+import refAudio11 from "./assets/working_audio_files/5_ref_2.wav";
 
 let sample;
 let audioList = [
@@ -58,10 +52,6 @@ let audioList = [
   oldAudio5,
   myAudio5,
 
-  refAudio6,
-  myAudio6,
-  oldAudio6,
-
   refAudio7,
   oldAudio7,
   myAudio7,
@@ -81,10 +71,6 @@ let audioList = [
   refAudio11,
   myAudio11,
   oldAudio11,
-
-  refAudio12,
-  oldAudio12,
-  myAudio12,
 ];
 const soundButtons = [...document.querySelectorAll(".soundButton")];
 

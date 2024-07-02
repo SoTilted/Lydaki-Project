@@ -7,27 +7,25 @@
   </head>
   <body>
     <div class="banner">
-      <p>
-        Rate each audio clip from each test, with <b>0 equals really bad</b> and
-        <b>5 equals perfect</b>.
-      </p>
+      <p>Rate each audio clip from each test.</p>
+      <p>1 - Bad</p>
+      <p>2 - Poor</p>
+      <p>3 - Fair</p>
+      <p>4 - Good</p>
+      <p>5 - Excellent</p>
     </div>
     <form action="/" method="POST">
       <div id="test-content">
         <div class="test" id="test1">
           <div>
-              <p>Ideal</p>
-              <button type="button" class="soundButton" id="test1C"></button>
+            <p>Reference</p>
+            <button type="button" class="soundButton" id="test1C"></button>
           </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test1A"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio1">0</label>
-                  <input type="radio" name="oldAudio1" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio1">1</label>
                   <input type="radio" name="oldAudio1" value="1" />
@@ -55,10 +53,6 @@
               <button type="button" class="soundButton" id="test1B"></button>
               <div class="options">
                 <div>
-                  <label for="myAudio1">0</label>
-                  <input type="radio" name="myAudio1" value="0" />
-                </div>
-                <div>
                   <label for="myAudio1">1</label>
                   <input type="radio" name="myAudio1" value="1" />
                 </div>
@@ -84,18 +78,14 @@
         </div>
         <div class="test" id="test2">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test2C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test2A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio2">0</label>
-                  <input type="radio" name="myAudio2" value="0" />
-                </div>
                 <div>
                   <label for="myAudio2">1</label>
                   <input type="radio" name="myAudio2" value="1" />
@@ -123,10 +113,6 @@
               <button type="button" class="soundButton" id="test2B"></button>
               <div class="options">
                 <div>
-                  <label for="oldAudio2">0</label>
-                  <input type="radio" name="oldAudio2" value="0" />
-                </div>
-                <div>
                   <label for="oldAudio2">1</label>
                   <input type="radio" name="oldAudio2" value="1" />
                 </div>
@@ -152,18 +138,14 @@
         </div>
         <div class="test" id="test3">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test3C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test3A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio3">0</label>
-                  <input type="radio" name="myAudio3" value="0" />
-                </div>
                 <div>
                   <label for="myAudio3">1</label>
                   <input type="radio" name="myAudio3" value="1" />
@@ -187,14 +169,9 @@
               </div>
             </div>
             <div class="test-sample">
-        
               <label for="B">B</label>
               <button type="button" class="soundButton" id="test3B"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio3">0</label>
-                  <input type="radio" name="oldAudio3" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio3">1</label>
                   <input type="radio" name="oldAudio3" value="1" />
@@ -221,18 +198,14 @@
         </div>
         <div class="test" id="test4">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test4C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test4A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio4">0</label>
-                  <input type="radio" name="myAudio4" value="0" />
-                </div>
                 <div>
                   <label for="myAudio4">1</label>
                   <input type="radio" name="myAudio4" value="1" />
@@ -260,10 +233,6 @@
               <button type="button" class="soundButton" id="test4B"></button>
               <div class="options">
                 <div>
-                  <label for="oldAudio4">0</label>
-                  <input type="radio" name="oldAudio4" value="0" />
-                </div>
-                <div>
                   <label for="oldAudio4">1</label>
                   <input type="radio" name="oldAudio4" value="1" />
                 </div>
@@ -289,18 +258,14 @@
         </div>
         <div class="test" id="test5">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test5C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="B">A</label>
               <button type="button" class="soundButton" id="test5A"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio5">0</label>
-                  <input type="radio" name="oldAudio5" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio5">1</label>
                   <input type="radio" name="oldAudio5" value="1" />
@@ -328,10 +293,6 @@
               <button type="button" class="soundButton" id="test5B"></button>
               <div class="options">
                 <div>
-                  <label for="myAudio5">0</label>
-                  <input type="radio" name="myAudio5" value="0" />
-                </div>
-                <div>
                   <label for="myAudio5">1</label>
                   <input type="radio" name="myAudio5" value="1" />
                 </div>
@@ -357,18 +318,14 @@
         </div>
         <div class="test" id="test6">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test6C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test6A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio6">0</label>
-                  <input type="radio" name="myAudio6" value="0" />
-                </div>
                 <div>
                   <label for="myAudio6">1</label>
                   <input type="radio" name="myAudio6" value="1" />
@@ -396,10 +353,6 @@
               <button type="button" class="soundButton" id="test6B"></button>
               <div class="options">
                 <div>
-                  <label for="oldAudio6">0</label>
-                  <input type="radio" name="oldAudio6" value="0" />
-                </div>
-                <div>
                   <label for="oldAudio6">1</label>
                   <input type="radio" name="oldAudio6" value="1" />
                 </div>
@@ -425,18 +378,14 @@
         </div>
         <div class="test" id="test7">
           <div>
-              <p>Ideal</p>
-              <button type="button" class="soundButton" id="test7C"></button>
+            <p>Reference</p>
+            <button type="button" class="soundButton" id="test7C"></button>
           </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test7A"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio7">0</label>
-                  <input type="radio" name="oldAudio7" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio7">1</label>
                   <input type="radio" name="oldAudio7" value="1" />
@@ -464,10 +413,6 @@
               <button type="button" class="soundButton" id="test7B"></button>
               <div class="options">
                 <div>
-                  <label for="myAudio7">0</label>
-                  <input type="radio" name="myAudio7" value="0" />
-                </div>
-                <div>
                   <label for="myAudio7">1</label>
                   <input type="radio" name="myAudio7" value="1" />
                 </div>
@@ -493,18 +438,14 @@
         </div>
         <div class="test" id="test8">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test8C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test8A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio8">0</label>
-                  <input type="radio" name="myAudio8" value="0" />
-                </div>
                 <div>
                   <label for="myAudio8">1</label>
                   <input type="radio" name="myAudio8" value="1" />
@@ -532,10 +473,6 @@
               <button type="button" class="soundButton" id="test8B"></button>
               <div class="options">
                 <div>
-                  <label for="oldAudio8">0</label>
-                  <input type="radio" name="oldAudio8" value="0" />
-                </div>
-                <div>
                   <label for="oldAudio8">1</label>
                   <input type="radio" name="oldAudio8" value="1" />
                 </div>
@@ -561,18 +498,14 @@
         </div>
         <div class="test" id="test9">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test9C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="A">A</label>
               <button type="button" class="soundButton" id="test9A"></button>
               <div class="options">
-                <div>
-                  <label for="myAudio9">0</label>
-                  <input type="radio" name="myAudio9" value="0" />
-                </div>
                 <div>
                   <label for="myAudio9">1</label>
                   <input type="radio" name="myAudio9" value="1" />
@@ -596,14 +529,9 @@
               </div>
             </div>
             <div class="test-sample">
-        
               <label for="B">B</label>
               <button type="button" class="soundButton" id="test9B"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio9">0</label>
-                  <input type="radio" name="oldAudio9" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio9">1</label>
                   <input type="radio" name="oldAudio9" value="1" />
@@ -630,18 +558,14 @@
         </div>
         <div class="test" id="test10">
           <div>
-            <p>Ideal</p>
+            <p>Reference</p>
             <button type="button" class="soundButton" id="test10C"></button>
-        </div>
+          </div>
           <div class="test-couple">
             <div class="test-sample">
               <label for="B">A</label>
               <button type="button" class="soundButton" id="test10A"></button>
               <div class="options">
-                <div>
-                  <label for="oldAudio10">0</label>
-                  <input type="radio" name="oldAudio10" value="0" />
-                </div>
                 <div>
                   <label for="oldAudio10">1</label>
                   <input type="radio" name="oldAudio10" value="1" />
@@ -669,10 +593,6 @@
               <button type="button" class="soundButton" id="test10B"></button>
               <div class="options">
                 <div>
-                  <label for="myAudio10">0</label>
-                  <input type="radio" name="myAudio10" value="0" />
-                </div>
-                <div>
                   <label for="myAudio10">1</label>
                   <input type="radio" name="myAudio10" value="1" />
                 </div>
@@ -691,142 +611,6 @@
                 <div>
                   <label for="myAudio10">5</label>
                   <input type="radio" name="myAudio10" value="5" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="test" id="test11">
-          <div>
-            <p>Ideal</p>
-            <button type="button" class="soundButton" id="test11C"></button>
-        </div>
-          <div class="test-couple">
-            <div class="test-sample">
-              <label for="A">A</label>
-              <button type="button" class="soundButton" id="test11A"></button>
-              <div class="options">
-                <div>
-                  <label for="myAudio11">0</label>
-                  <input type="radio" name="myAudio11" value="0" />
-                </div>
-                <div>
-                  <label for="myAudio11">1</label>
-                  <input type="radio" name="myAudio11" value="1" />
-                </div>
-                <div>
-                  <label for="myAudio11">2</label>
-                  <input type="radio" name="myAudio11" value="2" />
-                </div>
-                <div>
-                  <label for="myAudio11">3</label>
-                  <input type="radio" name="myAudio11" value="3" />
-                </div>
-                <div>
-                  <label for="myAudio11">4</label>
-                  <input type="radio" name="myAudio11" value="4" />
-                </div>
-                <div>
-                  <label for="myAudio11">5</label>
-                  <input type="radio" name="myAudio11" value="5" />
-                </div>
-              </div>
-            </div>
-            <div class="test-sample">
-              <label for="B">B</label>
-              <button type="button" class="soundButton" id="test11B"></button>
-              <div class="options">
-                <div>
-                  <label for="oldAudio11">0</label>
-                  <input type="radio" name="oldAudio11" value="0" />
-                </div>
-                <div>
-                  <label for="oldAudio11">1</label>
-                  <input type="radio" name="oldAudio11" value="1" />
-                </div>
-                <div>
-                  <label for="oldAudio11">2</label>
-                  <input type="radio" name="oldAudio11" value="2" />
-                </div>
-                <div>
-                  <label for="oldAudio11">3</label>
-                  <input type="radio" name="oldAudio11" value="3" />
-                </div>
-                <div>
-                  <label for="oldAudio11">4</label>
-                  <input type="radio" name="oldAudio11" value="4" />
-                </div>
-                <div>
-                  <label for="oldAudio11">5</label>
-                  <input type="radio" name="oldAudio11" value="5" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="test" id="test12">
-          <div>
-              <p>Ideal</p>
-              <button type="button" class="soundButton" id="test12C"></button>
-          </div>
-          <div class="test-couple">
-            <div class="test-sample">
-              <label for="A">A</label>
-              <button type="button" class="soundButton" id="test12A"></button>
-              <div class="options">
-                <div>
-                  <label for="oldAudio12">0</label>
-                  <input type="radio" name="oldAudio12" value="0" />
-                </div>
-                <div>
-                  <label for="oldAudio12">1</label>
-                  <input type="radio" name="oldAudio12" value="1" />
-                </div>
-                <div>
-                  <label for="oldAudio12">2</label>
-                  <input type="radio" name="oldAudio12" value="2" />
-                </div>
-                <div>
-                  <label for="oldAudio12">3</label>
-                  <input type="radio" name="oldAudio12" value="3" />
-                </div>
-                <div>
-                  <label for="oldAudio12">4</label>
-                  <input type="radio" name="oldAudio12" value="4" />
-                </div>
-                <div>
-                  <label for="oldAudio12">5</label>
-                  <input type="radio" name="oldAudio12" value="5" />
-                </div>
-              </div>
-            </div>
-            <div class="test-sample">
-              <label for="B">B</label>
-              <button type="button" class="soundButton" id="test12B"></button>
-              <div class="options">
-                <div>
-                  <label for="myAudio12">0</label>
-                  <input type="radio" name="myAudio12" value="0" />
-                </div>
-                <div>
-                  <label for="myAudio12">1</label>
-                  <input type="radio" name="myAudio12" value="1" />
-                </div>
-                <div>
-                  <label for="myAudio12">2</label>
-                  <input type="radio" name="myAudio12" value="2" />
-                </div>
-                <div>
-                  <label for="myAudio12">3</label>
-                  <input type="radio" name="myAudio12" value="3" />
-                </div>
-                <div>
-                  <label for="myAudio12">4</label>
-                  <input type="radio" name="myAudio12" value="4" />
-                </div>
-                <div>
-                  <label for="myAudio12">5</label>
-                  <input type="radio" name="myAudio12" value="5" />
                 </div>
               </div>
             </div>

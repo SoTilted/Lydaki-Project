@@ -33,8 +33,6 @@ app.post("/", (req, res) => {
       oldAudio4: req.body.oldAudio4,
       myAudio5: req.body.myAudio5,
       oldAudio5: req.body.oldAudio5,
-      myAudio6: req.body.myAudio6,
-      oldAudio6: req.body.oldAudio6,
     },
     test2: {
       myAudio1: req.body.myAudio7,
@@ -43,17 +41,14 @@ app.post("/", (req, res) => {
       oldAudio2: req.body.oldAudio8,
       myAudio3: req.body.myAudio9,
       oldAudio3: req.body.oldAudio9,
-      myAudio4  : req.body.myAudio10,
+      myAudio4: req.body.myAudio10,
       oldAudio4: req.body.oldAudio10,
       myAudio5: req.body.myAudio11,
       oldAudio5: req.body.oldAudio11,
-      myAudio6: req.body.myAudio12,
-      oldAudio6: req.body.oldAudio12,
     },
   });
   visitor.save();
   res.send("Thanks for your contribution!");
-
 });
 app.use(express.static("dist"));
 
